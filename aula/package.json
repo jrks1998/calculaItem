@@ -1,0 +1,16 @@
+{
+  "name": "aula",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculaTotalItem.js",
+  "dependencies": {
+    "lib": "^2.2.6",
+    "code": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "lab -v"
+  },
+  "author": "",
+  "license": "ISC"
+}

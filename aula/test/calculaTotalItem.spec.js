@@ -1,11 +1,11 @@
 const { expect } = require('code');
 const Lab = require('lab');
-const lab = expect.lab = Lab.script();
+const lab = exports.lab = Lab.script();
 
 const { calculaTotalItem } = require('../app/calculaTotalItem');
 
-lab.test('verificar retorno maça'. (done) => {
-  expect(calculaTotalItem(2, 4)).to.equal({ produto: 'Maça', valor:10});
+lab.test('verificar retorno maça', (done) => {
+  expect(calculaTotalItem(2, 4)).to.equal({ produto: 'Maça', valor:18});
   done();
 });
 
